@@ -1,0 +1,83 @@
+restaurants:
+  Azabu Kawakamian:
+    link: https://goo.gl/maps/CS5kMasoczfwnDFcA
+    image: 
+    text:
+      - tktkt
+      - tktkt
+  Iroha Sushi:
+    link: https://goo.gl/maps/L6JK41qsum1nCRCs5
+    # image: iroha-sushi-1.jpeg
+    image: iroha-sushi.jpeg
+    text:
+      - tktkt
+  Kameido Gyoza:
+    link: https://goo.gl/maps/YsstNtFCCY3v14H99
+    image: kameido.jpeg
+    text:
+      - I would buy a flight to Tokyo just to have one more meal at this place. Kameido Gyoza only serves gyoza, five to a plate. At the end of your meal they count up your plates and hand you a bill. 
+      - The main branch is on the east side of Tokyo, in Koto City, down the river from Tokyo Skytree. East Tokyo was less destroyed during the war and seems to be less popular with expats. In contrast West Tokyo, which has more foreigner-friendly housing and international chains, the neighborhoods to the east retain an older and purely Japanese character that I mostly experienced outside of Tokyo. 
+  SAVOY:
+    link: https://goo.gl/maps/GHMHLTc9PBi2DSfk9
+    image: savoy.jpeg
+    user: 봉봉즈(bongbongz)
+    text:
+      - tktkt
+      - tktkt
+  Ta-im:
+    link: https://goo.gl/maps/ZxZ21j4vwpbBWfyx9
+    image: ta-im_chef_dan_cropped.jpg
+    user: Jamelia Jones
+    text:
+      - Tokyo is filled with small, narrow restaurants with only counter seating. Part of the fun of these places is that you can banter with the chef while they make your meal. In fact, good conversation is not just expected, but part of how chefs of small shops compete for your business. That is, of course, only if you speak Japanese.
+      - At _Ta-im_, named for the Hebrew word for delicious, you don’t just get stupendous Israeli food, but a chance to experience this part of Tokyo culture in English. Chef Dan Zuckerman is goofy, kind, and welcoming. He’ll likely want to know if you’re Jewish, and if applicable, while brandishing a chef’s knife, will graciously offer take you back into the kitchen and convert you should you like. I recommend the lamb shakshuka.
+    
+bars:
+  Nem Coffee & Espresso:
+    link: https://goo.gl/maps/AQmUMpHaKqz4gEgu9
+    image: nem.jpeg
+    text:
+      - I recommend whatever coffee he recommends and the egg salad sandwhich.
+  Fuglen:
+    link: https://goo.gl/maps/hYbZa1dytEu1suSA6
+    image: fuglen.jpeg
+    text:
+      - tktktk
+  ØL:
+    link: https://goo.gl/maps/EAHh7HNApoaBXaaT7
+    image: øl.jpeg
+    text:
+      - Named for the Nordic word for beer, ØL is your standard Norwegian craft brewery and Mexican taco shop, a combination would seem out of place in any other city. The beers are top notch, the tacos superb. Surprising too considering it’s in the heart of Shibuya, ØL has some of the most generous patio seating in Tokyo.
+  JOLLYS:
+    name: JOLLYS
+    link: https://goo.gl/maps/mZPfUamtdSXfBq1b9
+    image: jollys.jpeg
+    text: 
+      - "If you’re curious about life as an expat in Tokyo, there’s no better place to start than Jollys. Part liquor store part bar (or a “slashee” as Chicagoans might say), Jolly’s tries to collect as many cheap, shitty beers from everyone’s home country as they can. They have PBR! And the worst beer I’ve ever tried: Victoria Bitters. Luckily, a jovial Australian was kind enough to take it off my hands. At its core, Jolly’s is a place for meeting people."
+
+onsens:
+  Moegi no Yu Onsen:
+    link: https://goo.gl/maps/cWVyVXqvcJomMWqZ6
+    image: Moegi no Yu Onsen.jpeg
+    text:
+      - after a long hike
+  Nasuonsen Shikanoyu Hot Spring:
+    link: https://goo.gl/maps/e6RrcGnRg1q2nHXn6
+    image: Nasuonsen Shikanoyu Hot Spring.jpeg
+    second image: Nasuonsen Shikanoyu Hot Spring Tubs.jpeg
+    text:
+      - At the base of a volcano – which you can hike! – this onsen is my absolute favorite. The smell of sulfur is overwhelming at first, but soon your brain will tune it out and you forget you ever noticed it. Your skin will never be softer. I wish I could hike and soak here every weekend.
+      - The baths are labeled by temperature. I suggest starting with the lowest. And I can only speak for the men’s bath, but you’re likely to find elderly locals egging on tourists to try the 48˚C tub. I got as far as my big toe.
+  Yukemuri-no-Shou:
+    link: https://goo.gl/maps/xFoLvKDsXFzgsYr46
+    image: Yukemuri-no-Shou.jpeg
+    text:
+      - closer to tokyo, and it's a whole day spa
+      - particularly well known for its food, which is also how many onsen resorts compete with each other.
+  Hirauchi Kaichu Onsen:
+    link: https://goo.gl/maps/Si8nKURtKXvFMhwx9
+    image: Hirauchi Kaichu Onsen.jpeg
+    text:
+      - This bath is nowhere near Tokyo, but it’s worth mentioning. It’s one of the rare, mixed-gender onsens – a fact my Japanese friends conveniently forgot to mention. But I’m glad they didn’t, because if they had I likely wouldn’t have gone.
+      - All onsens are fed by natural hot spring, but rarely do you get to see the spring itself, to feel it bubble out of the earth like placing your hand over the jet of a hot tub. Even rarer do you need to schedule your visit for when the tide is out. The whole experience felt primal, especially since Hirauchi Kaichu Onsen is not a formal business but just some warm tide pools found the rocky shoreline. Locals have been relaxing here [for over 400 years](https://yesyakushima.com/yakushima-seaside-onsens-hot-springs/).
+      - Attendees naturally segregated themselves and the rocks provided decent privacy. When traveling around rural Japan, if you find yourself near something similar, it will be very worth checking out.
