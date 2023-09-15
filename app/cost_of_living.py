@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 
-from .directories import DATA_DIR
+from directories import DATA_DIR
 
 
 def cost_of_living():

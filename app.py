@@ -1,15 +1,13 @@
 import streamlit as st
 
-import src.download as download
-from src import _isochrone
-from src import logic as lg
-from src import cost_of_living
-from src import maps
+from app import logic as lg
+from app import maps, cost_of_living
 
 
 st.set_page_config(page_title="Tokyo Travel Guide",
                    page_icon="tokyo-tower",
                    layout="wide",
+                #    menu_items={"About": }
 )
 
 _, narrow, _ = st.columns([2,5,2])

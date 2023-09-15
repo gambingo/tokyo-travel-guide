@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+from directories import DATA_DIR, IMG_DIR
 from . import utils
-from .directories import DATA_DIR, IMG_DIR
 
 
 def page_title_and_subtitle():

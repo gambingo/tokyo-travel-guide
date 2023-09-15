@@ -1,7 +1,7 @@
 import folium
 import pandas as pd
 
-from src import DATA_DIR
+from directories import DATA_DIR
 
 
 def prep_data_for_display():

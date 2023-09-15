@@ -4,7 +4,7 @@ import yaml
 import bz2
 import _pickle as cPickle
 
-from .directories import DATA_DIR
+from directories import DATA_DIR
 
 
 def load_yaml_file(filepath):

@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_folium import st_folium
 import pandas as pd
 
-from src import DATA_DIR
+from directories import DATA_DIR
 
 
 pd.options.mode.chained_assignment = None
