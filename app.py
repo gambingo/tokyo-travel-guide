@@ -19,6 +19,7 @@ with narrow:
     lg.write_text("introduction", header_level=None)
     lg.write_text("An Organic Metropolis", header_level=2)
     lg.write_text("Slow Down", header_level=2)
+    lg.write_text("Temples & Shrines", header_level=4)
     lg.write_text("Architecture", header_level=4)
     cost_of_living()
     lg.write_text("Cost of Living", header_level=None)
@@ -35,9 +36,7 @@ maps.azabu_and_west_town()
 
 
 _, narrow, _ = st.columns([2,5,2])
-with narrow:
-    lg.write_text("Temples & Shrines", header_level=4)
-    
+with narrow:    
     lg.write_text("Etiquette", header_level=2)
     lg.write_text("Table Manners", header_level=4)
     lg.write_text("Take Your Shoes Off", header_level=4)
