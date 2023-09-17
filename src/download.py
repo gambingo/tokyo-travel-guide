@@ -7,7 +7,8 @@ from tqdm import tqdm
 tqdm.pandas()
 
 
-def street_network_and_restaurants(lat_lng, max_travel_time, walk_speed=None, bike_speed=None):
+def street_network_and_restaurants(lat_lng, max_travel_time, 
+                                   walk_speed=None, bike_speed=None):
     """
     TKTK
     """
@@ -32,7 +33,7 @@ def street_network_and_restaurants(lat_lng, max_travel_time, walk_speed=None, bi
     # sustenance = ["bar","biergarten","cafe","fast_food","food_court","ice_cream","pub","restaurant"]
     # tags = {"amenity": sustenance}
     tags = {"amenity": True}
-    print("Downloading Restaurants...")
+    print("Downloading Amenities...")
     amenities = ox.features_from_point(lat_lng, tags=tags, dist=radius_meters)
     
     if walk_speed is not None:

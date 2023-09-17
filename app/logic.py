@@ -5,6 +5,13 @@ from directories import DATA_DIR, IMG_DIR
 from . import utils
 
 
+# @st.cache_data
+def load_config_file(filename="article.yaml"):
+    filepath = DATA_DIR / filename
+    config = utils.load_yaml_file(filepath)
+    return config
+
+
 def page_title_and_subtitle():
     _, cntr, _  = st.columns([1,2.5,1])
     cntr.title("Tokyo Travel Guide")
@@ -75,13 +82,6 @@ def restaurant_image(rstrnt, key="image"):
         caption = None
     st.image(Image.open(filepath), caption=caption)
     
-
-@st.cache_data()
-def load_config_file(filename="article.yaml"):
-    filepath = DATA_DIR / filename
-    config = utils.load_yaml_file(filepath)
-    return config
-
 
 def citations(header_level=5):
     st.markdown("---")
