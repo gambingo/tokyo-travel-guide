@@ -1,9 +1,12 @@
 import folium
 import streamlit as st
+import altair as alt
 from streamlit_folium import st_folium
 import pandas as pd
+import numpy as np
 
 from directories import DATA_DIR
+from src.circle_markers import COLORS
 
 
 pd.options.mode.chained_assignment = None
@@ -61,8 +64,10 @@ def dual_maps(azabu, west_town, travel_time=15):
     col1, col2 = st.columns(2)
     with col1:
         display_map(tokyo, "Azabu-Juban", azabu_fg, travel_time)
+        x_lim = hortizontal_bar_chart(azabu, travel_time, "Azabu-Juban")
     with col2:
         display_map(chicago, "West Town", west_town_fg, travel_time)
+        hortizontal_bar_chart(west_town, travel_time, "West Town", x_lim)
 
 
 def initialize_map(location, travel_time):
@@ -80,16 +85,39 @@ def display_map(_map, key, fg, travel_time):
     st.write("")
     town = "Chicago" if key == "West Town" else "Tokyo"
     st.markdown(f"##### {key}, {town}")
-
-    caption = f"""
-        There are {fg._children.__len__()} places to eat or drink within a 
-        {travel_time} minute walk of my apartment in {key}.
-        """
-    st.caption(caption)
-
     width = 725
     st_folium(_map, key=key, width=width, 
               feature_group_to_add=fg, 
               returned_objects=[])
-
     
+
+def hortizontal_bar_chart(df, travel_time, town, x_lim=None):
+    _domain = list(COLORS.keys())
+    _range = list(COLORS.values())
+
+    if x_lim is None:
+        x_lim = df["Category"].value_counts().max()
+        print(x_lim)
+        if x_lim > 100:
+            base=50
+        else:
+            base=10
+        x_lim = round_up_to(x_lim, base=base)
+        print(x_lim)
+
+    chart = alt.Chart(df).mark_bar().encode(
+        x=alt.X("count(Category)", title="Count of Places", 
+                scale=alt.Scale(domain=[0,x_lim])),
+        y=alt.Y("Category:O", title=None),
+        color=alt.Color("Category", legend=None, 
+                        scale=alt.Scale(domain=_domain, range=_range))
+    ).configure_axis(labelLimit=1000).properties(title={
+        "text":     "What Can You Walk To?",
+        "subtitle": f"The kinds of places accessible within {travel_time} minutes of my apartment in {town}.",
+    })
+    st.altair_chart(chart, use_container_width=True)
+    return x_lim
+    
+def round_up_to(x, base=50):
+    # return base * round(x/base)
+    return base * np.ceil(x/base)
