@@ -27,8 +27,8 @@ def input_widgets():
 
 @st.cache_data
 def load_data():
-    azabu = pd.read_pickle(DATA_DIR / "azabu_restaurants_prepped.pkl")
-    west_town = pd.read_pickle(DATA_DIR / "west_town_restaurants_prepped.pkl")
+    azabu = pd.read_pickle(DATA_DIR / "azabu_places.pkl")
+    west_town = pd.read_pickle(DATA_DIR / "west_town_places.pkl")
     return azabu, west_town
 
 

@@ -1,0 +1,115 @@
+Community & Worship:
+  amenity:
+    - library
+    - toy_library
+    - dancing_school
+    - community_centre
+    - internet_cafe
+    - place_of_worship
+    - public_bath
+    - social_centre
+  building:
+    - museum
+    - public
+    - cathedral
+    - chapel
+    - church
+    - kingdom_hall
+    - monastery
+    - mosque
+    - presbytery
+    - religious
+    - shrine
+    - synagogue
+    - temple
+
+Eating:
+  amenity:
+    - fast_food
+    - food_court
+    - ice_cream
+    - restaurant
+  # building:
+  #   - 
+
+Education:
+  amenity:
+    - childcare
+    - college
+    - kindergarten
+    - school
+    - university
+    - language_school
+    - research_institute
+    - music_school
+  building:
+    - college
+    - kindergarten
+    - school
+    - university
+
+Entertainment, Arts & Culture:
+  amenity:
+    - arts_centre
+    - cinema
+    - conference_centre
+    - events_venue
+    - exhibition_centre
+    - music_venue
+    - nightclub
+    - planetarium
+    - theatre
+  # building:
+  #   - 
+
+Drinking:
+  amenity:
+    - bar
+    - biergarten
+    - cafe
+    - pub
+  # building:
+  #   - 
+
+Government Services:
+  amenity:
+    - courthouse
+    - fire_station
+    - police
+    - post_office
+    - social_facility
+    - townhall
+  building:
+    - civic
+    - fire_station
+    - government
+    
+Healthcare:
+  amenity:
+    - baby_hatch
+    - clinic
+    - dentist
+    - doctors
+    - hospital
+    - nursing_home
+    - pharmacy
+  building:
+    - hospital
+
+Office:
+  # amenity:
+  #   - 
+  building:
+    - office
+
+Shopping:
+  amenity:
+    - marketplace
+    - bank
+    - bureau_de_change
+  building:
+    - commercial
+    - retail
+    - supermarket
+    - veterinary
+  shop: True

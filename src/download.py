@@ -3,12 +3,13 @@ import osmnx as ox
 import networkx as nx
 from tqdm import tqdm
 
+from . import places, circle_markers
 
 tqdm.pandas()
 
 
-def street_network_and_restaurants(lat_lng, max_travel_time, 
-                                   walk_speed=None, bike_speed=None):
+def street_network_and_places(lat_lng, max_travel_time, 
+                              walk_speed=None, bike_speed=None):
     """
     TKTK
     """
@@ -29,25 +30,21 @@ def street_network_and_restaurants(lat_lng, max_travel_time,
         bike_graph = ox.graph_from_point(lat_lng, network_type="bike", dist=radius_meters)
         bike_graph = add_travel_time_to_graph(bike_graph, bike_speed, "biking time")
 
-    # Restaurants
-    # sustenance = ["bar","biergarten","cafe","fast_food","food_court","ice_cream","pub","restaurant"]
-    # tags = {"amenity": sustenance}
-    tags = {"amenity": True}
-    print("Downloading Amenities...")
-    amenities = ox.features_from_point(lat_lng, tags=tags, dist=radius_meters)
+    # Places
+    results = places.download_by_tag(lat_lng, radius_meters)
     
     if walk_speed is not None:
-        amenities = calculate_travel_times(walk_graph, amenities, lat_lng, "walking time")
+        results = calculate_travel_times(walk_graph, results, lat_lng, "walking time")
     if bike_speed is not None:
-        amenities = calculate_travel_times(bike_graph, amenities, lat_lng, "biking time")
+        results = calculate_travel_times(bike_graph, results, lat_lng, "biking time")
 
     # Extract Lat / Lng
     latitude = lambda geom: geom.centroid.coords[0][1]
     longitude = lambda geom: geom.centroid.coords[0][0]
-    amenities["lat"] = amenities["geometry"].apply(latitude)
-    amenities["lon"] = amenities["geometry"].apply(longitude)
+    results["lat"] = results["geometry"].apply(latitude)
+    results["lon"] = results["geometry"].apply(longitude)
 
-    return walk_graph, bike_graph, amenities
+    return walk_graph, bike_graph, results
 
 
 def add_travel_time_to_graph(graph, travel_speed, weight_name):
@@ -57,7 +54,8 @@ def add_travel_time_to_graph(graph, travel_speed, weight_name):
     # Conver miles per hour to meters per minut
     meters_in_a_mile = 1609.34
     meters_per_minute = travel_speed * meters_in_a_mile / 60
-    for u, v, k, data in graph.edges(data=True, keys=True):
+    desc = f"Adding {weight_name} to graph..."
+    for u, v, k, data in tqdm(graph.edges(data=True, keys=True), desc=desc):
         data[weight_name] = data['length'] / meters_per_minute
     return graph
 
