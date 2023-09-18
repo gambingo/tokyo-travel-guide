@@ -5,7 +5,7 @@ from directories import DATA_DIR, IMG_DIR
 from . import utils
 
 
-@st.cache_data
+# @st.cache_data
 def load_config_file(filename="article.yaml"):
     filepath = DATA_DIR / filename
     config = utils.load_yaml_file(filepath)
