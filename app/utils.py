@@ -45,3 +45,11 @@ def decompress_pickle(filename):
     data = bz2.BZ2File(filepath, "rb")
     data = cPickle.load(data)
     return data
+
+
+def chunk_it_up(arr, chunk_size):
+    """
+    Split an array into chunks of size `chunk_size`
+    """
+    for i in range(0, len(arr), chunk_size): 
+        yield arr[i:i + chunk_size]

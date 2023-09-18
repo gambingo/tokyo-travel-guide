@@ -1,9 +1,17 @@
 restaurants:
   Azabu Kawakamian:
     link: https://goo.gl/maps/CS5kMasoczfwnDFcA
-    image: 
+    image: Kawakamian.jpeg
+    user: Takuro Arai
     text:
       - tktkt
+      - tktkt
+  SilkRoad Tarim Uyghur Restaurant:
+    link: https://maps.app.goo.gl/GQjCnngNbgsFkQR66?g_st=ic
+    image: silk-road.jpeg
+    user: K Matsu
+    text:
+      - tltklt
       - tktkt
   Iroha Sushi:
     link: https://goo.gl/maps/L6JK41qsum1nCRCs5
@@ -11,12 +19,6 @@ restaurants:
     image: iroha-sushi.jpeg
     text:
       - tktkt
-  Kameido Gyoza:
-    link: https://goo.gl/maps/YsstNtFCCY3v14H99
-    image: kameido.jpeg
-    text:
-      - I would buy a flight to Tokyo just to have one more meal at this place. Kameido Gyoza only serves gyoza, five to a plate. At the end of your meal they count up your plates and hand you a bill. 
-      - The main branch is on the east side of Tokyo, in Koto City, down the river from Tokyo Skytree. East Tokyo was less destroyed during the war and seems to be less popular with expats. In contrast West Tokyo, which has more foreigner-friendly housing and international chains, the neighborhoods to the east retain an older and purely Japanese character that I mostly experienced outside of Tokyo. 
   SAVOY:
     link: https://goo.gl/maps/GHMHLTc9PBi2DSfk9
     image: savoy.jpeg
@@ -24,14 +26,29 @@ restaurants:
     text:
       - tktkt
       - tktkt
+  Kameido Gyoza:
+    link: https://goo.gl/maps/YsstNtFCCY3v14H99
+    image: kameido.jpeg
+    user: t saito
+    text:
+      - I would buy a flight to Tokyo just to have one more meal at this place. Kameido Gyoza only serves gyoza, five to a plate. At the end of your meal they count up your plates and hand you a bill. 
+      - The main branch is on the east side of Tokyo, in Koto City, down the river from Tokyo Skytree. East Tokyo was less destroyed during the war and seems to be less popular with expats. In contrast West Tokyo, which has more foreigner-friendly housing and international chains, the neighborhoods to the east retain an older and purely Japanese character that I mostly experienced outside of Tokyo. 
   Ta-im:
     link: https://goo.gl/maps/ZxZ21j4vwpbBWfyx9
     image: ta-im_chef_dan_cropped.jpg
     user: Jamelia Jones
     text:
       - Tokyo is filled with small, narrow restaurants with only counter seating. Part of the fun of these places is that you can banter with the chef while they make your meal. In fact, good conversation is not just expected, but part of how chefs of small shops compete for your business. That is, of course, only if you speak Japanese.
-      - At _Ta-im_, named for the Hebrew word for delicious, you don’t just get stupendous Israeli food, but a chance to experience this part of Tokyo culture in English. Chef Dan Zuckerman is goofy, kind, and welcoming. He’ll likely want to know if you’re Jewish, and if applicable, while brandishing a chef’s knife, will graciously offer take you back into the kitchen and convert you should you like. I recommend the lamb shakshuka.
-    
+      - At _Ta-im_, named for the Hebrew word for delicious, you don’t just get stupendous Israeli food, but a chance to experience this part of Tokyo culture in English. Chef Dan Zuckerman is goofy, kind, and welcoming. He’ll likely want to know if you’re Jewish, and if applicable, while brandishing a chef’s knife, will graciously offer take you back into the kitchen and convert. I recommend the lamb shakshuka.
+  Tantantei:
+    link: https://maps.app.goo.gl/Xq3dRycogo3iDrST8
+    image: tantantei.jpeg
+    user: nao nao
+    text:
+      - Venturing out of central Tokyo – into the “suburbs” – is a fun opportunity to imagine what it might be like to really live in Tokyo. These mostly single family home neighborhoods are where you would likely settle if you were raising kids in the biggest city in the world. Smaller, quieter, and greener, these little towns are still delightfully dense, walkable, and filled with great food.
+      - You can find Tantantei off a winding park that follows the Kanda river, dotted with playgrounds and little league fields. Still accessible by subway – it’s not a trek – but I doubt many tourists would venture this far. Go for a quieter afternoon and a glimpse into the safe, park-filled communities that grant Japanese children so much freedom.
+
+
 bars:
   Nem Coffee & Espresso:
     link: https://goo.gl/maps/AQmUMpHaKqz4gEgu9
@@ -48,7 +65,7 @@ bars:
     link: https://goo.gl/maps/EAHh7HNApoaBXaaT7
     image: øl.jpeg
     text:
-      - Named for the Nordic word for beer, ØL is your standard Norwegian craft brewery and Mexican taco shop, a combination would seem out of place in any other city. The beers are top notch, the tacos superb. Surprising too considering it’s in the heart of Shibuya, ØL has some of the most generous patio seating in Tokyo.
+      - Named for the Nordic word for beer, ØL is your standard Norwegian craft brewery and Mexican taco shop, a combination that would seem out of place in any other city. The beers are top notch, the tacos superb. Surprising too considering it’s in the heart of Shibuya, ØL has some of the most generous patio seating in Tokyo.
   JOLLYS:
     name: JOLLYS
     link: https://goo.gl/maps/mZPfUamtdSXfBq1b9

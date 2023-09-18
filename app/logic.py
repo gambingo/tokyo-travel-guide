@@ -54,19 +54,28 @@ def onsens():
 
 
 def restaurant_sub_sections(key="restaurants"):
-    col1, col2, col3, col4 = st.columns(4)
-    columns = {0:  col1, 1:  col2, 2:  col3, 3:  col4,}
-
+    """
+    Display config items in 4-column blocks. 
+    Each row starts at the same height.
+    """
     config = load_config_file("recomendations.yaml")
-    for ii, (name, dtls) in enumerate(config[key].items()):
-        col = columns[ii%4]
-        with col:
-            restaurant_image(dtls)
-            st.markdown(f"**[{name}]({dtls['link']})**")
-            for paragraph in dtls['text']:
-                st.write(paragraph)
-            if "second image" in dtls:
-                restaurant_image(dtls, key="second image")
+    recommendations = list(config[key].keys())
+
+    for group_of_4 in utils.chunk_it_up(recommendations, 4):
+        col1, col2, col3, col4 = st.columns(4)
+        columns = {0:  col1, 1:  col2, 2:  col3, 3:  col4,}
+
+        # for ii, (name, dtls) in enumerate(config[key].items()):
+        for ii, name in enumerate(group_of_4):
+            col = columns[ii%4]
+            dtls = config[key][name]
+            with col:
+                restaurant_image(dtls)
+                st.markdown(f"**[{name}]({dtls['link']})**")
+                for paragraph in dtls['text']:
+                    st.write(paragraph)
+                if "second image" in dtls:
+                    restaurant_image(dtls, key="second image")
 
 
 @st.cache_data
