@@ -7,7 +7,6 @@ from app import maps, cost_of_living
 st.set_page_config(page_title="Tokyo Travel Guide",
                    page_icon="tokyo-tower",
                    layout="wide",
-                #    menu_items={"About": }
 )
 
 _, narrow, _ = st.columns([2,5,2])
