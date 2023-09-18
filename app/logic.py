@@ -58,7 +58,7 @@ def restaurant_sub_sections(key="restaurants"):
     Display config items in 4-column blocks. 
     Each row starts at the same height.
     """
-    config = load_config_file("recomendations.yaml")
+    config = load_config_file("recommendations.yaml")
     recommendations = list(config[key].keys())
 
     for group_of_4 in utils.chunk_it_up(recommendations, 4):
