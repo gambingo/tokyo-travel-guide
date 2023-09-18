@@ -6,10 +6,21 @@ import pandas as pd
 import numpy as np
 
 from directories import DATA_DIR
-from src.circle_markers import COLORS
-
 
 pd.options.mode.chained_assignment = None
+
+
+COLORS = {
+    "Community & Worship":              "#357036",
+    "Eating":                           "#96B7FA",
+    "Education":                        "#9C6CE0",
+    "Entertainment, Arts & Culture":    "#7D60A6",
+    "Drinking":                         "#7DFA7F",
+    "Government Services":              "#E09C82",
+    "Healthcare":                       "#A62190",
+    "Office":                           "#E0DD55",
+    "Shopping":                         "#FA64AB",
+}
 
 
 def azabu_and_west_town():
