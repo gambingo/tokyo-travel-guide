@@ -36,8 +36,10 @@ just_what_is_needed = ["Category", "walking time", "name", "Marker"]
 
 azabu_places = pd.read_pickle(DATA_DIR / "azabu_places.pkl")
 azabu_places = azabu_places[just_what_is_needed]
+azabu_places = azabu_places[azabu_places["walking time"] <= max_travel_time]
 azabu_places.to_pickle(DATA_DIR / "azabu_places.pkl")
 
 west_town_places = pd.read_pickle(DATA_DIR / "west_town_places.pkl")
 west_town_places = west_town_places[just_what_is_needed]
+west_town_places = west_town_places[west_town_places["walking time"] <= max_travel_time]
 west_town_places.to_pickle(DATA_DIR / "west_town_places.pkl")
