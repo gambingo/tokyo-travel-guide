@@ -1,6 +1,9 @@
 # tokyo-travel-guide
 
-TKTKT
+A reflection of lessons and adventures from a year and half in Tokyo.
+
+
+### Development
 
 
 Export production dependencies to a `requirements.txt` file.
