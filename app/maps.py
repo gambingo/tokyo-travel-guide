@@ -32,6 +32,7 @@ def azabu_and_west_town():
 def input_widgets():
     _, narrow, _ = st.columns([2,5,2])
     with narrow:
+        st.write("")
         label = "How long are you willing to walk?"
         travel_time = st.slider(label, value=15, 
                                 min_value=1, max_value=20,

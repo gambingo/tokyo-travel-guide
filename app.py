@@ -27,13 +27,14 @@ lg.food_and_drink()
 
 _, narrow, _ = st.columns([2,5,2])
 with narrow:
-    lg.write_text("Change is Constant", header_level=4)
     lg.write_text("A 15-Minute City", header_level=2)
-maps.azabu_and_west_town()
 
+maps.azabu_and_west_town()
 
 _, narrow, _ = st.columns([2,5,2])
 with narrow:    
+    lg.write_text("15_minute_city_part_two", header_level=None)
+    
     lg.write_text("Etiquette", header_level=2)
     lg.write_text("Table Manners", header_level=4)
     lg.write_text("Take Your Shoes Off", header_level=4)
