@@ -6,17 +6,16 @@ restaurants:
     text:
       - tktkt
       - tktkt
-  SilkRoad Tarim Uyghur Restaurant:
+  Silk Road Tarim Uyghur Restaurant:
     link: https://maps.app.goo.gl/GQjCnngNbgsFkQR66?g_st=ic
     image: silk-road.jpeg
     user: K Matsu
     text:
-      - tltklt
-      - tktkt
+      - It is a rare experience to encounter an entirely new cuisine, even rarer to encounter one that, sadly, may not exist for much longer. Uyghurs are the mostly-Muslim ethnic group living in Eastern China who are [victims of active genocide](https://www.nytimes.com/topic/subject/uyghurs) at the hands of the Chinese government. Their food is a delicious blend of Turkish, Indian, and Chinese influences. Just one meal at Silk Road Tarim offers such a diversity of flavors that you will leave fully aware that the world is at risk of losing a particularly beautiful culture.
   Iroha Sushi:
     link: https://goo.gl/maps/L6JK41qsum1nCRCs5
-    # image: iroha-sushi-1.jpeg
-    image: iroha-sushi.jpeg
+    image: iroha_cropped.png
+    user: T S
     text:
       - tktkt
   SAVOY:
@@ -24,8 +23,8 @@ restaurants:
     image: savoy.jpeg
     user: 봉봉즈(bongbongz)
     text:
-      - tktkt
-      - tktkt
+      - When people ask me what food I miss most from Japan, they look at me quite funny when I answer honestly, _pizza_. “Pizza is not Japanese food,” you might think. Well, you’d be wrong.
+      - The Japanese have adopted Neapolitan pizza and applied to it their infamous work ethic, dedication, and artistry. Most chefs must apprentice for at least a year before they are allowed to make pizza for customers. These chefs take their craft, but not themselves, seriously. Every chef I met was goofy and friendly, especially [Bun san](https://www.instagram.com/angie.mieux/), the chef extraordinaire of Savoy, who so proudly and genuinely relishes in making his guests happy.
   Kameido Gyoza:
     link: https://goo.gl/maps/YsstNtFCCY3v14H99
     image: kameido_cropped.jpg

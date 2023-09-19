@@ -2,8 +2,12 @@
 
 A reflection of lessons and adventures from a year and half in Tokyo.
 
+The live app can be found [here](https://tokyo-travel-guide.streamlit.app/).
+
 
 ### Development
+
+
 
 
 Export production dependencies to a `requirements.txt` file.
