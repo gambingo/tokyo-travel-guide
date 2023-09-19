@@ -5,7 +5,7 @@ from directories import DATA_DIR, IMG_DIR
 from . import utils
 
 
-# @st.cache_data
+@st.cache_data
 def load_config_file(filename="article.yaml"):
     filepath = DATA_DIR / filename
     config = utils.load_yaml_file(filepath)
@@ -75,20 +75,23 @@ def restaurant_sub_sections(key="restaurants"):
                 for paragraph in dtls['text']:
                     st.write(paragraph)
                 if "second image" in dtls:
-                    restaurant_image(dtls, key="second image")
+                    if "second user" in dtls:
+                        caption = f"Photo by {dtls['second user']}"
+                    restaurant_image(dtls, key="second image", 
+                                     caption=caption)
 
 
 @st.cache_data
-def restaurant_image(rstrnt, key="image"):
+def restaurant_image(rstrnt, key="image", caption=None):
     if rstrnt[key] is not None:
         filepath = IMG_DIR / rstrnt[key]
     else:
         filepath = IMG_DIR / "arisugawa.jpg"
 
-    if "user" in rstrnt:
-        caption = f"Photo by Google Maps user {rstrnt['user']}"
-    else:
-        caption = None
+    if caption is None:
+        if "user" in rstrnt:
+            caption = f"Photo by Google Maps user {rstrnt['user']}"
+
     st.image(Image.open(filepath), caption=caption)
     
 
