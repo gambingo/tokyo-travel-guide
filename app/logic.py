@@ -5,7 +5,7 @@ from directories import DATA_DIR, IMG_DIR
 from . import utils
 
 
-@st.cache_data
+# @st.cache_data
 def load_config_file(filename="article.yaml"):
     filepath = DATA_DIR / filename
     config = utils.load_yaml_file(filepath)
@@ -101,3 +101,13 @@ def citations(header_level=5):
     config = load_config_file()
     for ii, citation in config[section_title].items():
         st.markdown(f"{ii}. {citation}")
+
+
+def where_is_this():
+    text = """
+        _Sumimasen, kore wa doko desu ka?_  
+        Excuse me, where is this?
+    """
+    _, cntr, _ = st.columns([2,2,2])
+    with cntr:
+        st.markdown(f":grey[{text}]")

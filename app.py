@@ -58,6 +58,7 @@ with narrow:
     with col2:
         lg.image("google_maps_2")
     lg.write_text("navigation_2", header_level=None)
+    lg.where_is_this()
     lg.write_text("navigation_3", header_level=None)
 
     lg.write_text("Tabelog", header_level=4)
