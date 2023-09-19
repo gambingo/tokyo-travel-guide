@@ -37,6 +37,8 @@ with narrow:
     
     lg.write_text("Etiquette", header_level=2)
     lg.write_text("Table Manners", header_level=4)
+    st.write("")
+    lg.image("jomon_roppongi")
     lg.write_text("Take Your Shoes Off", header_level=4)
 
     lg.write_text("Onsen", header_level=2)

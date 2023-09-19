@@ -6,6 +6,10 @@ tokyo_subway_map:
   filename: tokyo-subway-map.png
   caption: If this looks confusing, wait till you see the ones in Japanese.
 
+jomon_roppongi:
+  filename: jomon-roppongi.jpg
+  caption: Inside Jomon Roppongi, a yakitori restaurant where you will be expected to take off your shoes. I recommend the horse sashimi. Photo by Lesya Kim on Flickr. 
+
 google_maps_1:
   filename: google_maps_1.PNG
   caption: The colors of "East Exit" and "South Exit" match the signs in the station. Everything is easier to find when you board the suggested cars.
