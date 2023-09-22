@@ -4,8 +4,7 @@ restaurants:
     image: Kawakamian.jpeg
     user: Takuro Arai
     text:
-      - tktkt
-      - tktkt
+      - Soba is my favorite Japanese food. It’s a summer food. The noodles are served chilled, and you dip them in their sauce. Soba noodles are so flavorful that you end the meal with a tea made from the noodle broth itself. Just try to sound a little more refined than me when I, questioning this, referred to the tea as “pasta water”. At Azabu Kawakamian in particular I recommend their walnut soba course meal.
   Silk Road Tarim Uyghur Restaurant:
     link: https://maps.app.goo.gl/GQjCnngNbgsFkQR66?g_st=ic
     image: silk-road.jpeg
@@ -17,7 +16,8 @@ restaurants:
     image: iroha_cropped.png
     user: T S
     text:
-      - tktkt
+      - We all know the one food you want to try in Japan. You _can_ treat yourself to high-end, omakase sushi. I have; it’s delicious. But you don’t _need_ to spend a lot to eat great sushi in Japan. Usually filled with Japanese twenty-somthings, this is my favorite, casual spot.
+      - Iroha is the center of Nakameguro, a neighborhood I could happily spend months in without leaving. Put your name down, and while you wait for your table you can stroll along the Meguro river, do some shopping at [], have a beer at [], or whatever you like. Nakameguro is a joy to explore.
   SAVOY:
     link: https://goo.gl/maps/GHMHLTc9PBi2DSfk9
     image: savoy.jpeg
@@ -44,7 +44,7 @@ restaurants:
     image: tantantei_cropped.jpg
     user: nao nao
     text:
-      - Venturing out of central Tokyo – into the “suburbs” – is a fun opportunity to imagine what it might be like to really live in Tokyo. These mostly single family home neighborhoods are where you would likely settle if you were raising kids in the biggest city in the world. Smaller, quieter, and greener, these little towns are still delightfully dense, walkable, and filled with great food.
+      - Venturing out of central Tokyo – into the “suburbs” – is a fun opportunity to imagine what it would be like to really live in Tokyo. These mostly single family home neighborhoods are where you would likely settle if you were raising kids in the biggest city in the world. Smaller, quieter, and greener, these little towns are still delightfully dense, walkable, and filled with great food.
       - You can find Tantantei off a winding park that follows the Kanda river, dotted with playgrounds and little league fields. Still accessible by subway, it’s not a trek, but I doubt many tourists would venture this far. Go for a quieter afternoon and a glimpse into the safe, park-filled communities that grant Japanese children so much freedom.
   Yakitori Tsukada Nakameguro:
     link: https://maps.app.goo.gl/vgZvwU5k8TkATB4i7
@@ -58,13 +58,13 @@ bars:
     link: https://goo.gl/maps/AQmUMpHaKqz4gEgu9
     image: nem.jpeg
     text:
-      - I recommend whatever coffee he recommends and the egg salad sandwhich.
+      - Down a narrow walkway off the enchanting Arisugawa-no-miya Memorial Park, NEM is a haven, a refuge. The path towards it will seem like you’re walking to someone’s home, and that is exactly what it feels like inside. Strictly wifi and device free, and decorated like you’ve found a modern, secluded cabin, NEM is for enjoying your coffee with a friend or with a book. I recommend whatever beans he recommends plus the egg salad sandwich.
   Fuglen:
     link: https://goo.gl/maps/hYbZa1dytEu1suSA6
     image: fuglen.jpeg
     user: Fuglen Tokyo
     text:
-      - tktktk
+      - My notes for Fuglen just read, “damn good coffee.” Tokyo is world-renowned for its coffee scene. In particular, its pour-over scene – which is called “hand-pour” in Japan – and Fuglen is my favorite hand-pour destination. I’ve been fortunate enough to aslo visit one of their original locations in Oslo, and, lucky for you, I like their Yoyogi spot better. Near the park and along a lovely, pedestrianized street, Fuglen is likely to be popular but well worth the wait.
   ØL:
     link: https://goo.gl/maps/EAHh7HNApoaBXaaT7
     image: øl.jpeg
