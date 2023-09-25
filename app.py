@@ -27,6 +27,8 @@ lg.food_and_drink()
 
 _, narrow, _ = st.columns([2,5,2])
 with narrow:
+    st.write("")
+    st.header("")
     lg.write_text("A 15-Minute City", header_level=2)
 
 maps.azabu_and_west_town()

@@ -111,6 +111,6 @@ def where_is_this():
         _Sumimasen, kore wa doko desu ka?_  
         Excuse me, where is this?
     """
-    _, cntr, _ = st.columns([2,2,2])
+    _, cntr, _ = st.columns([2,2.5,2])
     with cntr:
         st.markdown(f":grey[{text}]")
