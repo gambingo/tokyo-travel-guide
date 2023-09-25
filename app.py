@@ -70,4 +70,8 @@ with narrow:
     with col2:
         lg.write_text("MyMizu", header_level=4)
 
+    
+    st.write("")
+    st.write("")
+    lg.image("hamarikyu")
     lg.citations()
