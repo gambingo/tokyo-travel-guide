@@ -16,8 +16,8 @@ restaurants:
     image: iroha_cropped.png
     user: T S
     text:
-      - We all know the one food you want to try in Japan. You _can_ treat yourself to high-end, omakase sushi. I have; it’s delicious. But you don’t _need_ to spend a lot to eat great sushi in Japan. Usually filled with Japanese twenty-somthings, this is my favorite, casual spot.
-      - Iroha is the center of Nakameguro, a neighborhood I could happily spend months in without leaving. Put your name down, and while you wait for your table you can stroll along the Meguro river, do some shopping at [], have a beer at [], or whatever you like. Nakameguro is a joy to explore.
+      - We all know the one food you want to try in Japan. You _can_ treat yourself to high-end, omakase sushi. I have; it’s delicious. But you don’t _need_ to spend a lot to eat great sushi in Japan. Usually filled with Japanese twenty-somethings, this is my favorite, casual spot.
+      - Iroha is the center of Naka-meguro, a neighborhood I could happily spend months in without leaving. Put your name down, and while you wait for your table you can stroll along the Meguro river, do some shopping at [Migratory](https://maps.app.goo.gl/fF54Dv62zTPYCwrm8), have a drink at [Sidewalk Stand](https://maps.app.goo.gl/P84gBAZBeASTcTxS8) or [Antonic](https://maps.app.goo.gl/NKNTymFn9JZ6taCy7), or whatever you like. Naka-meguro is a joy to explore.
   SAVOY:
     link: https://goo.gl/maps/GHMHLTc9PBi2DSfk9
     image: savoy.jpeg
@@ -83,8 +83,8 @@ onsens:
     image: Moegi no Yu Onsen.jpeg
     user: 木下正俊
     text:
-      - Ride the subway for two hours heading west and soon you will end up on the Ōme line, snaking along the Tama River. The river valley offers everything. It’s the first place I went outdoor bouldering and where I regret not planning a kayaking trip.
-      - Moegi no Yu Onsen is at the end of the line and is where we would end most days of hiking from mountain-top shrine to mountain-top shrine. You can eat there or hop on the train and get dinner back in Tokyo. Even if gets late, the sun begins to set on your hike, and you realize you forgot to pack flashlights, you will still have time to soak. Trains run until midnight.
+      - Ride the subway two hours heading west and you will end up on the Ōme Line, snaking along the Tama River. The river valley offers everything. It’s the first place I went outdoor bouldering and where I regret not planning a kayaking trip.
+      - Moegi no Yu Onsen is in Oku-Tama, the end of the line, and is where we would end most days of hiking from mountain-top shrine to mountain-top shrine. You can eat there or hop on the train and get dinner back in Tokyo. Even if gets late, the sun begins to set on your hike, and you realize you forgot to pack flashlights, you will still have time to soak. Trains run until midnight.
   Nasuonsen Shikanoyu Hot Spring:
     link: https://goo.gl/maps/e6RrcGnRg1q2nHXn6
     image: Nasuonsen Shikanoyu Hot Spring.jpeg
