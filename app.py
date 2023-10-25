@@ -50,6 +50,7 @@ lg.onsens()
 
 _, narrow, _ = st.columns([2,5,2])
 with narrow:
+    st.write("")
     lg.write_text("Navigation", header_level=2)
     lg.image("tokyo_subway_map")
     lg.write_text("navigation_1", header_level=None)
