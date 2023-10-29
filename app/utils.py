@@ -8,7 +8,7 @@ from directories import DATA_DIR
 
 
 def load_yaml_file(filepath):
-    with open(filepath) as file:
+    with open(filepath, encoding="utf8") as file:
         obj = yaml.load(file, Loader=yaml.loader.SafeLoader)
     return obj
 
