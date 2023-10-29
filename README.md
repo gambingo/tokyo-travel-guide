@@ -14,3 +14,4 @@ poetry export --without-hashes --without dev -f requirements.txt -o requirements
 
 **To-Do**
 - [ ] Fill place name `NaN`s.
+- [ ] Convert to-do list into github issues.
