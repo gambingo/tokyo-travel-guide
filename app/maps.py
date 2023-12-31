@@ -40,7 +40,7 @@ def input_widgets():
     return travel_time
 
 
-@st.cache_data
+# @st.cache_data
 def load_data():
     azabu = pd.read_pickle(DATA_DIR / "azabu_places.pkl")
     west_town = pd.read_pickle(DATA_DIR / "west_town_places.pkl")
